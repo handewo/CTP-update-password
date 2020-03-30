@@ -4,9 +4,9 @@
 
 开发环境是：**ubuntu 18.04**
 
-看穿式监管评测版本：6.3.16_T1
+看穿式监管评测版本：**6.3.16_T1**
 
-###Build & Run 
+### Build & Run 
 ```bash
 cp libthostmduserapi_se.so libthosttraderapi_se.so /usr/lib/
 
