@@ -8,15 +8,15 @@
 
 ### Build & Run 
 ```bash
-cp libthostmduserapi_se.so libthosttraderapi_se.so /usr/lib/
-
 cd CTP-update-password
 
-cmake ./
+sudo cp libthostmduserapi_se.so libthosttraderapi_se.so /usr/lib/
+
+cmake CMakeLists.txt
 
 make
 
-vim conf/ctp.ini
+vim conf/ctp.ini  # 不需要全部填写，填写知晓的信息即可
 
 cd bin
 
